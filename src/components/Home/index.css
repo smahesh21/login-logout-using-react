@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  height: 70vh;
+  width: 60vw;
+  margin-top: 85px;
+  border: 0px none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.log-in-out-button {
+  height: 35px;
+  width: 70px;
+  border: 0px none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #303150;
+  background-color: #f8fafc;
+}
+@media screen and (max-width: 576px) {
+  .home-container {
+    margin-top: 25px;
+  }
+}
